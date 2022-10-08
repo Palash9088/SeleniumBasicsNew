@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SeleniumBasics" />
         <module name="SeleniumBasics2" />
+        <module name="SeleniumBasicsNew" />
       </profile>
     </annotationProcessing>
   </component>
