@@ -2,31 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/main/java/TestNGBasics/LoginTestWithDataProviderTest.java">
+          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/relevel_testing/java/ClassCodes/AlertHandleDemoQATest.java">
         <classes>
-            <class name="TestNGBasics.LoginTestWithDataProviderTest">
+            <class name="ClassCodes.AlertHandleDemoQATest">
                 <methods>
-                    <include name="loginTest"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/main/java/TestNGBasics/DemoTest.java">
-        <classes>
-            <class name="TestNGBasics.DemoTest">
-                <methods>
-                    <include name="setUp"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/main/java/TestNGBasics/AlertHandleTest.java">
-        <classes>
-            <class name="TestNGBasics.AlertHandleTest">
-                <methods>
-                    <include name="tHandleAlert"/>
+                    <include name="handleAlert"/>
                 </methods>
             </class>
         </classes>

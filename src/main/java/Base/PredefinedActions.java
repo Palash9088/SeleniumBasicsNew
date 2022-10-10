@@ -10,10 +10,11 @@ public class PredefinedActions {
        System.out.println("STEP -> Opening Chrome Browser");
         System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
 
         System.out.println("STEP -> Opening Given " + url);
         driver.get(url);
-        driver.manage().window().maximize();
+
         return driver;
     }
     public static WebDriver start()

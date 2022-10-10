@@ -11,5 +11,6 @@ public class DemoTest extends PredefinedActions {
     public void setUp()
     {
         driver = start();
+        System.out.println("Palash");
     }
 }
