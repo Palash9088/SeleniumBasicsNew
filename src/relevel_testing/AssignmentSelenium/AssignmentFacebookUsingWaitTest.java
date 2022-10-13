@@ -1,3 +1,20 @@
+/*
+* https://relevel.com/courses/software-testing-course-0001/schedule/class-details/d47f28af-df2c-4f0d-9d11-a585bc3c153f
+Home
+/
+Software Testing Course
+/
+Selenium - Waits and Sleeps
+/
+Assignment -1
+
+Assignment -1
+Submission Date - 18th Oct, 2022, 10 AM
+Requirements: Implement the explicit wait on Facebook.
+Load Facebook.
+Enter your username and password.
+Login
+Check for the image if it is present using explicit wait*/
 import Base.PredefinedActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
