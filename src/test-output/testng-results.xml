@@ -6,7 +6,7 @@
     <groups>
     </groups>
     <test started-at="2022-10-07T22:37:28 IST" name="SeleniumBasicsNew" finished-at="2022-10-07T22:37:36 IST" duration-ms="8295">
-      <class name="TestNGBasics.LoginTestWithDataProviderTest">
+      <class name="TestNGBasics.Assignment14LoginTestWithDataProviderTest">
         <test-method is-config="true" signature="setUp()[pri:0, instance:TestNGBasics.LoginTestWithDataProviderTest@163e4e87]" started-at="2022-10-07T22:37:28 IST" name="setUp" finished-at="2022-10-07T22:37:33 IST" duration-ms="5245" status="PASS">
           <reporter-output>
           </reporter-output>

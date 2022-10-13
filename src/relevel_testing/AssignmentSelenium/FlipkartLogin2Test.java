@@ -20,7 +20,7 @@ public class FlipkartLogin2Test extends PredefinedActions {
     }
     @Test
     public void loginFlipkart() throws InterruptedException {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='_2Sn47c']//descendant::button[@class='_2KpZ6l _2doB4z']"))).click();
 

@@ -15,6 +15,7 @@ Basics\BasicElementFormsTest.class
 Assignment\Assignment9EmployeeTableExComparator.class
 Basics\Basics.class
 Basics\TableEx5.class
+TestNGGroups\GroupsEx.class
 Basics\TableEx2.class
 TestNGBasics\LoginTestWithDataProviderTest.class
 Assignment\Assignment9Employee.class
@@ -28,5 +29,6 @@ Assignment\Assignment5MultiDropDown.class
 Assignment\Assignment7TableEx7Cum.class
 Basics\TableEx1.class
 Basics\BasicElementAlert.class
+TestNGBasics\LoginTestWithExcelDataProviderTest.class
 Basics\TableEx6.class
 Assignment\Assignment10ValidateThroughProperty.class

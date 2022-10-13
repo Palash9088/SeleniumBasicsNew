@@ -2,11 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/relevel_testing/java/ClassCodes/AlertHandleDemoQATest.java">
+          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/main/java/Assignment/Assignment17TableTest2.java">
         <classes>
-            <class name="ClassCodes.AlertHandleDemoQATest">
+            <class name="Assignment.Assignment17TableTest2">
                 <methods>
-                    <include name="handleAlert"/>
+                    <exclude name="officeAndNumberOfEmployees"/>
+                    <exclude name="positionAndNumberOfEmployees"/>
+                    <include name="addRecord"/>
+                    <include name="deleteRecord"/>
                 </methods>
             </class>
         </classes>

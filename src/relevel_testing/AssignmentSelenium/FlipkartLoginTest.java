@@ -1,5 +1,6 @@
 
-import ActionsClass.ActionsBasicsMouseHover;
+
+
 import Base.PredefinedActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -27,7 +28,7 @@ public class FlipkartLoginTest extends PredefinedActions {
         WebElement userLogin = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='IiD88i _351hSN']/input[@class='_2IX_2- VJZDxU']")));
         userLogin.sendKeys("Palashsoni55@gmail.com");
 
-        driver.findElement(By.xpath("//div[@class='IiD88i _351hSN']/input[@type='password']")).sendKeys("chandamama");
+        driver.findElement(By.xpath("//div[@class='IiD88i _351hSN']/input[@type='password']")).sendKeys("pks123");
 
         driver.findElement(By.xpath("//div[@class='_1D1L_j']/button[@type='submit']")).click();
 
