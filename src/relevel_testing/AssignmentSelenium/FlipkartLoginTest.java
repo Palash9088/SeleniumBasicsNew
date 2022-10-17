@@ -25,10 +25,10 @@ public class FlipkartLoginTest extends PredefinedActions {
     public void loginFlipkart() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         System.out.println("Step -> Login into Flipkart");
-        WebElement userLogin = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='IiD88i _351hSN']/input[@class='_2IX_2- VJZDxU']")));
-        userLogin.sendKeys("TestUser");
+        WebElement userLogin = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@class='_2IX_2- VJZDxU']")));
+        userLogin.sendKeys("Palashsoni55@gmail.com");
 
-        driver.findElement(By.xpath("//div[@class='IiD88i _351hSN']/input[@type='password']")).sendKeys("TestPass");
+        driver.findElement(By.xpath("//div[@class='IiD88i _351hSN']/input[@type='password']")).sendKeys("chandamama");
 
         driver.findElement(By.xpath("//div[@class='_1D1L_j']/button[@type='submit']")).click();
 

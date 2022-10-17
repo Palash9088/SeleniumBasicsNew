@@ -38,8 +38,8 @@ public class Assignment3FacebookSignUpAutomate {
         System.out.println("Step -> Enter Firstname, surname. wrong mobile number (like 788898989hjhj88)");
         driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Palash");
         driver.findElement(By.xpath("//input[@aria-label='Surname']")).sendKeys("Soni");
-        driver.findElement(By.xpath("//input[@aria-label='Mobile number or email address']")).sendKeys("8517979799");
-        driver.findElement(By.xpath("//input[@aria-label='New password']")).sendKeys("Palash@123");
+        driver.findElement(By.xpath("//input[@aria-label='Mobile number or email address']")).sendKeys("123456789");
+        driver.findElement(By.xpath("//input[@aria-label='New password']")).sendKeys("p@ss");
 
         System.out.println("Step -> sing Select class select Date, Month and Year using sequentially selectByValue(), selectByIndex() and selectByVisibleText()");
         WebElement dateOfBirth = driver.findElement(By.id("day"));

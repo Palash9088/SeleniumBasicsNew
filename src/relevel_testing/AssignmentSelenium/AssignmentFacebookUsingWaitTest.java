@@ -43,8 +43,8 @@ public class AssignmentFacebookUsingWaitTest extends PredefinedActions {
         String actualTitle = driver.getTitle();
 
         System.out.println("Enter Login Details");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='email']"))).sendKeys("1"); //Write your email here 
-        driver.findElement(By.cssSelector("input#pass")).sendKeys("1"); //Write your password here 
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='email']"))).sendKeys(""); //Write your email here
+        driver.findElement(By.cssSelector("input#pass")).sendKeys(""); //Write your password here
         driver.findElement(By.xpath("//button[@name='login']")).click();
 
         System.out.println("Verify title");
