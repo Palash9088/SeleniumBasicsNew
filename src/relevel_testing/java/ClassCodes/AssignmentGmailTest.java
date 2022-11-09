@@ -11,7 +11,7 @@ public class AssignmentGmailTest  extends PredefinedActions {
 
         System.out.println("Step -> Entering Email id");
         Thread.sleep(2000);
-        driver.findElement(By.id("identifierId")).sendKeys("palashsoni5@gmail.com");
+        driver.findElement(By.id("identifierId")).sendKeys("");
 
         System.out.println("Step -> Click on next");
         driver.findElement(By.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']")).click();

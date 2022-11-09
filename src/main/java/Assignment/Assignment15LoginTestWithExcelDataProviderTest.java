@@ -27,7 +27,7 @@ public class Assignment15LoginTestWithExcelDataProviderTest extends PredefinedAc
 
     @BeforeClass
     public void setUp() {
-        driver = start();
+        driver = start("");
     }
 
     @Test(dataProvider = "loginDataProvider")
@@ -73,7 +73,7 @@ public class Assignment15LoginTestWithExcelDataProviderTest extends PredefinedAc
 
         for(int rowIndex=0;rowIndex<rowNumber;rowIndex++){
             for(int colsIndex=0;colsIndex<colsNumber;colsIndex++){
-                data[rowIndex][colsIndex] =sheet.getRow(rowIndex).getCell(colsIndex).getStringCellValue();
+                data[rowIndex][colsIndex] = sheet.getRow(rowIndex).getCell(colsIndex).getStringCellValue();
             }
         }
 

@@ -21,7 +21,7 @@ public class Assignment14LoginTestWithDataProviderTest extends PredefinedActions
     @BeforeClass
     public void setUp()
     {
-        driver = start();
+        driver = start("http://automationbykrishna.com/index.html");
     }
 
     @Test(dataProvider = "loginDataProvider")

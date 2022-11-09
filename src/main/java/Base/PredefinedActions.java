@@ -17,8 +17,15 @@ public class PredefinedActions {
 
         return driver;
     }
-    public static WebDriver start()
-    {
-        return start("http://automationbykrishna.com");
+    public static WebDriver start() {
+        System.out.println("STEP -> Opening Chrome Browser");
+        System.setProperty("webdriver.chrome.driver", "src//main//resources//chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+
+        System.out.println("STEP -> Opening Given url");
+        driver.get("http://automationbykrishna.com/");
+
+        return driver;
     }
 }

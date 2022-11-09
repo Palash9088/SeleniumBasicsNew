@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 
@@ -22,13 +23,13 @@ public class FlipkartLoginTest extends PredefinedActions {
         driver = start("https://www.flipkart.com/");
     }
     @Test
-    public void loginFlipkart() throws InterruptedException {
+    public void loginFlipkart()  {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         System.out.println("Step -> Login into Flipkart");
         WebElement userLogin = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@class='_2IX_2- VJZDxU']")));
-        userLogin.sendKeys("Palashsoni55@gmail.com");
+        userLogin.sendKeys("");
 
-        driver.findElement(By.xpath("//div[@class='IiD88i _351hSN']/input[@type='password']")).sendKeys("chandamama");
+        driver.findElement(By.xpath("//div[@class='IiD88i _351hSN']/input[@type='password']")).sendKeys("");
 
         driver.findElement(By.xpath("//div[@class='_1D1L_j']/button[@type='submit']")).click();
 
