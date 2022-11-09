@@ -1,4 +1,4 @@
-package JavaAdditionalAssignment;//import java.util.*;
+package AdditonalAssignment.JavaAdditionalAssignment;//import java.util.*;
 
 import java.util.Scanner;
 

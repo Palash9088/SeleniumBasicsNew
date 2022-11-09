@@ -6,7 +6,7 @@ Assignment -1
 Submission Date - 10th Oct, 2022, 10 AM
 Requirements: Write code for handling the alerts and deleting the customer on the below-mentioned
 * website.http://demo.guru99.com/test/delete_customer.php*/
-package ClassCodes;//import java.util.*;
+package java.ClassCodes;//import java.util.*;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.Alert;

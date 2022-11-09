@@ -9,7 +9,7 @@ Hover on the same.
 Right-click on the first question.
 Pick the answer and print it in the Console.
 * */
-package ClassCodes;//import java.util.*;
+package java.ClassCodes;//import java.util.*;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.By;

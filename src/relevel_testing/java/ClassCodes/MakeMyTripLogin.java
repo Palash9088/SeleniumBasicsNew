@@ -1,4 +1,4 @@
-package ClassCodes;
+package java.ClassCodes;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.WebDriver;

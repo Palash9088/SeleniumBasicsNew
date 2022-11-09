@@ -1,3 +1,4 @@
+
 import Base.PredefinedActions;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -40,8 +41,7 @@ public class AssertNotEqualTest extends PredefinedActions {
     }
 
     @AfterClass
-    public void tearDown()
-    {
+    public void tearDown() {
         System.out.println("Driver closed");
         driver.close();
     }

@@ -1,13 +1,11 @@
 
-package ClassCodes;//import java.util.*;
+package java.ClassCodes;//import java.util.*;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 public class AlertHandleDemoQATest extends PredefinedActions {

@@ -1,4 +1,4 @@
-package ClassCodes;//import java.util.*;
+package java.ClassCodes;//import java.util.*;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.By;
@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class PharmEasyTest extends PredefinedActions {
+
 
     WebDriver driver;
 

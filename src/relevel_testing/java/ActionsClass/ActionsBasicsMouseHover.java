@@ -1,4 +1,4 @@
-package ActionsClass;//import java.util.*;
+package java.ActionsClass;//import java.util.*;
 
 import Base.PredefinedActions;
 import org.openqa.selenium.By;

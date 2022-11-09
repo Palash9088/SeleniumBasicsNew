@@ -1,7 +1,10 @@
-package ActionsClass;//import java.util.*;
+package java.ActionsClass;//import java.util.*;
 
 import Base.PredefinedActions;
-import org.openqa.selenium.*;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class ActionsBasicDoubleClick extends PredefinedActions {

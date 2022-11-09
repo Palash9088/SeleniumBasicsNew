@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <parameter name="username" value="kailashsoni007test@gmail.com"/>
-    <parameter name="password" value="Kailash_somnath"/>
-    <parameter name="expectedText" value="Facebook"/>
+    <groups>
+        <run>
+            <exclude name="DemoFacebook"/>
+        </run>
+    </groups>
     <test verbose="2" preserve-order="true"
-          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/relevel_testing/AssignmentSelenium/FacebookLoginParameterTest.java">
+          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/relevel_testing/AssignmentSelenium/TestNgGroupsTest.java">
         <classes>
-            <class name="FacebookLoginParameterTest"/>
+            <class
+                    name="TestNgGroupsTest">
+            </class>
         </classes>
     </test>
 </suite>

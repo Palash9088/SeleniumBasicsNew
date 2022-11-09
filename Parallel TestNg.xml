@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" parallel="methods" thread-count="3"
+          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/relevel_testing/AssignmentSelenium/ParallelTestAssignmentTest.java">
+        <classes>
+            <class name="ParallelTestAssignmentTest"/>
+        </classes>
+    </test>
+</suite>
