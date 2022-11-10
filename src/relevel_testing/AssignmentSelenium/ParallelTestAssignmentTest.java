@@ -37,6 +37,7 @@ public class ParallelTestAssignmentTest extends PredefinedActions {
     @Test
     public void m2() {
 
+
         driver.get("https://www.easemytrip.com/");
         System.out.println(Thread.currentThread().getId());
 

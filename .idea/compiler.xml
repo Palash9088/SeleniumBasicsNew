@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SeleniumBasics" />
         <module name="SeleniumBasics2" />
-        <module name="SeleniumBasicsNew" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="18" />
+    <bytecodeTargetLevel target="18">
+      <module name="SeleniumBasicsNew" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
