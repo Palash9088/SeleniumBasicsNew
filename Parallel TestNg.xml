@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" parallel="methods"
-          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/relevel_testing/AssignmentSelenium/ParallelTestAssignmentTest.java">
+          name="C:/Users/palas/IdeaProjects/SeleniumBasicsNew/src/relevel_testing/AssignmentSelenium/Parallel.ParallelTestAssignmentTest.java">
         <classes>
-            <class name="ParallelTestAssignmentTest"/>
+            <class name="Parallel.ParallelTestAssignmentTest"/>
         </classes>
     </test>
 </suite>
