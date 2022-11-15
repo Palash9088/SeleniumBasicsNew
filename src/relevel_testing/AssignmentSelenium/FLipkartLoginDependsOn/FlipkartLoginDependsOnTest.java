@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -19,7 +20,7 @@ public class FlipkartLoginDependsOnTest extends PredefinedActions {
     WebDriver driver;
     WebDriverWait wait;
 
-    public FlipkartLoginDependsOnTest()  {
+    public FlipkartLoginDependsOnTest() {
     }
 
     @Test()
@@ -52,5 +53,10 @@ public class FlipkartLoginDependsOnTest extends PredefinedActions {
         int expectedList = 9;
         int actualList = driver.findElements(By.xpath("//ul[@class='pO9syL undefined']/li")).size();
         Assert.assertEquals(expectedList, actualList);
+    }
+    @AfterClass
+    public void tearDown()
+    {
+        driver.quit();
     }
 }
